@@ -1,6 +1,7 @@
-enum Gender {
-    MAKE
-    FEMALE
+enum UserRole {
+    PATIENT
+    DOCTOR
+    ADMIN
 }
 
 enum UserStatus {
@@ -9,8 +10,7 @@ enum UserStatus {
     DELETED
 }
 
-enum UserRole {
-    PATIENT
-    DOCTOR
-    ADMIN
+enum Gender {
+    MALE
+    FEMALE
 }
